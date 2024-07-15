@@ -242,7 +242,7 @@ body {
         .apresentacao__links__navegacao {
             font-size: 1rem; /* Ajuste proporcional do tamanho da fonte */
             padding: 10px 0; /* Ajuste proporcional do padding */
-            width: 100%; /* Garante que os links ocupem 100% da largura disponível */
+            width: auto; /* Garante que os links ocupem 100% da largura disponível */
             max-width: 300px; /* Define um tamanho máximo para os links */
             margin: 0 auto; /* Centraliza os links horizontalmente */
         }
