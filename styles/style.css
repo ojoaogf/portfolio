@@ -119,6 +119,7 @@ body {
 }
 
 .img__logo{
+
     width: 32px;
     height: 32px;
 }
@@ -133,7 +134,7 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {
     .cabecalho{
         padding: 10%;
     }
@@ -149,6 +150,104 @@ body {
 
     .apresentacao__conteudo{
         width: auto;
-        height: auto;
     }
+    } */
+
+   /* @media (min-width: 768px) {
+        .cabecalho {
+            padding: 2% 15%;
+        }
+
+    
+        .apresentacao {
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 5% 15%;
+        }
+    
+        .apresentacao__conteudo {
+            width: 50%;
+            text-align: left;
+        }
+    
+        .apresentacao__conteudo__titulo {
+            font-size: 2.25rem;
+        }
+    
+        .apresentacao__conteudo__paragrafo {
+            font-size: 1.5rem;
+        }
+    
+        .apresentacao__links__navegacao {
+            font-size: 1.5rem;
+            padding: 21.5px 0;
+        }
+    
+        .apresentacao__img {
+            width: 50%;
+            max-width: 450px;
+        }
+    }*/
+
+    /*@media (max-width: 767px) {
+        .cabecalho {
+            padding: 5%;
+        }
+    
+        .cabecalho__menu {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    
+        .apresentacao__conteudo__titulo {
+            font-size: 1.75rem;
+        }
+    
+        .apresentacao__conteudo__paragrafo {
+            font-size: 1rem;
+        }
+    
+        .apresentacao__links__navegacao {
+            font-size: 1rem;
+            padding: 10px 0;
+        }
+    }*/
+
+    @media (max-width: 1200px) {
+        .cabecalho{
+            padding: 10%;
+        }
+    
+        .cabecalho__menu{
+            justify-content: center;
+        }
+    
+        .apresentacao{
+            flex-direction: column;
+            padding: 5%;
+        }
+    
+        .apresentacao__conteudo{
+            width: auto;
+        }
+    
+        .apresentacao__img {
+            order: -1; /* Move a imagem para o topo */
+            width: 100%; /* Garante que a imagem ocupe 100% da largura disponível */
+            max-width: 300px; /* Define um tamanho máximo para a imagem */
+            margin-bottom: 20px; /* Adiciona espaçamento abaixo da imagem */
+        }
+    
+        .apresentacao__links__navegacao {
+            font-size: 1rem; /* Ajuste proporcional do tamanho da fonte */
+            padding: 10px 0; /* Ajuste proporcional do padding */
+            width: 100%; /* Garante que os links ocupem 100% da largura disponível */
+            max-width: 300px; /* Define um tamanho máximo para os links */
+            margin: 0 auto; /* Centraliza os links horizontalmente */
+        }
     }
+
+    
+
+    
