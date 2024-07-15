@@ -246,8 +246,8 @@ body {
             max-width: 300px; /* Define um tamanho máximo para os links */
             margin: 0 auto; /* Centraliza os links horizontalmente */
         }
-    }
 
-    
-
-    
+        .apresentacao__links__navegacao .img__logo {
+            margin-left: 2px; /* Ajusta a distância da imagem à borda direita */
+        }
+    } 
